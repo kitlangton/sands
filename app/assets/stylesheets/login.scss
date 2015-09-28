@@ -1,0 +1,102 @@
+body {
+  background-color: #F8F8E6;
+}
+.header {
+
+  .header-link {
+    margin: 0 10px;
+  }
+  border-color: none;
+  &.bigger {
+    height: 130px;
+  }
+  .float-left {
+    position: relative;
+    top: 4px;
+    float: left;
+  }
+  .title {
+    position: relative;
+    right: 90px;
+  }
+  position: relative;
+  .bottom-text {
+    a {
+      color: #ceb378;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0px;
+    background-color: #57101b;
+  }
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#832331), color-stop(100%,#711b29)); /* Chrome,Safari4+ */
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+  clear: both;
+  // color: #F8F8E6;
+  color: #ceb378;
+  text-align: center;
+  background-color: darkred;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 950px;
+  margin-top: -20px;
+}
+
+.splash {
+  position: relative;
+  top: -10px;
+  margin: 0 auto;
+  z-index: -10;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #832331;
+  color: #F8F8E6;
+}
+
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  color: #832331;
+}
+
+.hotel-nav {
+}
+
+.list-group-item {
+  &:hover {
+    cursor: pointer;
+    background-color: #832331;
+    color: #F8F8E5;
+  }
+}
+
+.bold {
+  // font-weight: bold;
+  color: grey;
+  background-color: #eee;
+}
+
+.sub-item {
+  position: relative;
+  left: 10px;
+}
+
+
+
+.login {
+  position: relative;
+  top: -100px;
+}
+
+.text-centered {
+  text-align: center;
+}

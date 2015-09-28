@@ -1,0 +1,115 @@
+.header.bigger
+  .float-left
+    = image_tag 'logo.png'
+  .title
+    h2 Signage Inventory
+  .bottom-text
+    a.header-link 
+      strong HOME
+    a.header-link ORDERS
+    a.header-link ROLLOUTS
+    a.header-link REPORTS
+    a.header-link ADMIN
+    a.header-link SEARCH
+    a.header-link
+      span.glyphicon.glyphicon-shopping-cart
+      |  0
+    a.header-link LOGOUT
+.container
+  br
+  .row
+    .col-md-10.col-md-offset-1
+
+      ul.nav.nav-pills.nav-justified.hotel-nav
+       li.active role="presentation"
+        a The Venetian
+       li role="presentation"
+        a The Palazzo
+       li role="presentation"
+        a Sands Expo
+       li role="presentation"
+        a Sands Bethlehem
+       li role="presentation"
+        a Macao
+       li role="presentation"
+        a Singapore
+  .row
+    .col-md-10.col-md-offset-1
+      h3
+        | Signage Profile 
+        small Interior Print - Ven Breezeway Duratrans
+      br
+      .row
+        .form-group.col-lg-6
+          label Name
+          input.form-control type='text' value="Ven Breezeway Duratrans"
+          br
+          label Area
+          input.form-control type='text' value="Breezeway"
+          br
+          label Location
+          input.form-control type='text' value="Spot 6 from CoffeeBean (Left)"
+          br
+          label Property
+          input.form-control type='text' value="VEN"
+          br
+          .row
+            .form-group.col-lg-6
+              label Production Width
+              input.form-control type='text' value='33.75"'
+            .form-group.col-lg-6
+              label Production Height
+              input.form-control type='text' value='45.5"'
+          .row
+            .form-group.col-lg-6
+              label Visual Spec Width
+              input.form-control type='text' value='26.75"'
+            .form-group.col-lg-6
+              label Visual Spec Height
+              input.form-control type='text' value='38.5"'
+          label Substrate
+          input.form-control type='text' value="Duratrans"
+          br
+          button.btn.btn-success.btn-lg Add to Cart
+        .form-group.col-lg-3
+          label Latest Install Date
+          input.form-control type='text' value="11 - April - 2015"
+          button.btn.btn-primary.btn-block Check for Install History
+          br
+          label Media Cost
+          input.form-control type='text' value="$1,500"
+          button.btn.btn-primary.btn-block Check for Purchase History
+          br
+          label Signage Profile Pictures
+          .btn-group-vertical.btn-block
+            button.btn.btn-primary.btn-block Upload Profile Pics
+            button.btn.btn-primary.btn-block Edit Profile Pics
+          br
+          br
+          .thumbnail
+            = image_tag 'pic1'
+            .caption.text-centered
+              strong.text-centered 3/12/15
+          .thumbnail
+            = image_tag 'pic2'
+            .caption.text-centered
+              strong.text-centered 3/12/15
+        .form-group.col-lg-3
+          label Install Profile Pictures
+          .btn-group-vertical.btn-block
+            button.btn.btn-primary.btn-block Upload Install Pics
+            button.btn.btn-primary.btn-block Edit Install Pics
+          br
+          br
+          .thumbnail
+            = image_tag 'install1'
+            .caption.text-centered
+              strong.text-centered 4/15/15
+          .thumbnail
+            = image_tag 'install2'
+            .caption.text-centered
+              strong.text-centered 4/15/15
+          .thumbnail
+            = image_tag 'install3'
+            .caption.text-centered
+              strong.text-centered 6/17/15
